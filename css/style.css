@@ -1,0 +1,76 @@
+* {
+  font-family: "Roboto", "Arial Narrow", Arial, sans-serif;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+div div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  background-color: #2a2a2a;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.737);
+}
+
+header div div img {
+  padding-right: 13px;
+}
+header div div span {
+  font-weight: 700;
+  font-size: 24px;
+  color: #39b24a;
+}
+header div div span span {
+  color: white;
+}
+header div div span span span {
+  color: #fc200c;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex-content-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main div div {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 490px;
+  height: 350px;
+}
+
+main div div img {
+  width: 490px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.737);
+}
+
+.tarjeta-derecha {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
